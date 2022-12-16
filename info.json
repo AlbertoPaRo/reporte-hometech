@@ -1,0 +1,6 @@
+[
+  {
+    "sheetName": "Reporte Semanal",
+    "queryPath": "./queries/Reporte_HOMETECH_Semanal.sql"
+  }
+]
