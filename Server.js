@@ -49,10 +49,10 @@ async function sendEmail() {
       path: "./hoja_sql.xls",
     },
     from: `"Alberto Padilla" <${process.env.EMAIL_USER}>`,
-    to: ` <${process.env.EMAIL_DEST2}>`,
-    cc: `<${process.env.EMAIL_DEST}>,<${process.env.EMAIL_DEST1}>`,
-    subject: "Reporte Cocina Rally blanca TA",
-    text: "Buenos dias, se le adjunta el archivo de Reporte Semanal HomeTech . saludos cordiales.",
+    to: ` <${process.env.EMAIL_DEST1}>`,
+    cc: `<${process.env.EMAIL_DEST}>,<${process.env.EMAIL_DEST2}>`,
+    subject: "Reporte servicio instalacion",
+    text: "Buenas tardes, se le adjunta el archivo de Reporte solcitado. saludos cordiales.",
   });
 
   console.log("Message sent: %s", info.messageId);
